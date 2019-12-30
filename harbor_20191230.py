@@ -219,9 +219,9 @@ def main(api_url, login, num, exclude):
 
 if __name__ == '__main__':
     # harbor api interface
-    api_url = "https://images.lingcb.net/api"
+    api_url = "https://images.xxx.net/api"
     # Login ,change username and password
-    login = HTTPBasicAuth('admin', '120110')
+    login = HTTPBasicAuth('admin', '123456')
     # 需要排除的项目组，自行根据情况更改，或为空
     exclude = ['k8s', 'basic', 'library']
     # 仓库下版本过多，需保留的最近版本数量
