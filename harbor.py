@@ -113,7 +113,7 @@ class Harbor(object):
                     for h in tag_dict.keys():
                         tagtime_list.append(h)
                     # 取出时间最大值三个
-                    max_limit = heapq.nlargest(3, tagtime_list)
+                    max_limit = heapq.nlargest(self.num_limit, tagtime_list)
                     # 取反，将key不为这三个的value版本号找出来
                     for q in tag_dict.keys():
                         if q not in max_limit:
