@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# --coding:utf-8--
+# -*- coding: utf-8 -*-
 '''本脚本适用于清理释放harbor镜像仓库空间；
     此脚本基于harbor 1.9.0版本编写；
     harbor 1.7.0 以后版本可通过页面垃圾回收；
