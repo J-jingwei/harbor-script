@@ -1,5 +1,5 @@
 # harbor-script
-用于存放harbor仓库存储回收脚本
+用于存放harbor仓库存储回收脚本，清理Harbor镜像。
 
 
 ### 需要修改部分：
